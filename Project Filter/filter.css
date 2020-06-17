@@ -1,0 +1,78 @@
+header{
+	border: 2px solid green;
+	font-size: 20pt;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #ccffcc;
+}
+body {
+  background-color: black;
+  font-family: Verdana;
+  margin: 40px;
+  color: violet
+}
+button{
+	background-color: orange;
+	border-color: red;
+	color: pink;
+}
+summary{
+	font-size: 20pt;
+}
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
+  background-color: #0d1a00;
+}
+
+.c1{
+filter:blur(3px);
+
+}
+.c2{
+filter:sepia(80%);
+}
+input {
+  font-size: 12pt;
+  color: blue;
+  border-radius: 15px;
+  border: 2px orange solid;
+}
+.c4{
+	filter: contrast(150%) brightness(100%);
+}
+.c0{
+	filter: none;
+}
+.c5{
+	filter: saturate(8);
+}
+.c6{
+	filter: opacity(30%);
+}
+.c7{
+	filter: grayscale(100%);
+
+}
+.c8{
+	filter: hue-rotate(90deg);
+
+}
+footer{
+	color: #ccffcc;
+}
+#ol1{
+	color: #ff4da6;
+}
+#ifu{
+	margin: 25px;
+	color: #ff8080;
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 6px;
+	padding-left: 10px;
+	background-color: #ccffff;
+}
+#Avail{
+	color: #ff9933;
+}

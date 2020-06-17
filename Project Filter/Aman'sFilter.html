@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="images/jpg" href="https://i.pinimg.com/236x/e7/98/5b/e7985b66353bf9a98762d4026bf3e7a4--alphabet-wall-decals-alphabet-letters.jpg">
+	<title>Aman's Filter</title>
+	<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+<!--
+	This link is to use "Font Awesome".
+-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!--
+	this script is to link "Javascript".
+-->
+
+<script type="text/javascript" src="filter.js"></script>
+<!--
+	This link is to link "CSS".
+-->
+<link rel="stylesheet" type="text/css" href="filter.css">
+</head>
+<body>
+
+<header>
+	Image Filters
+</header>
+<br>
+<br>
+
+<canvas id = "fgcan">
+</canvas>
+<canvas id = "bgcan">
+</canvas>
+
+<p>
+IMAGE 1: <input type="file"  multiple="false" accept="image/*" id="fgfile" onchange="loadForegroundImage()" >
+</p>
+
+<p>
+IMAGE 2: <input type="file" multiple="false" accept="image/*" id="bgfile" onchange="loadBackgroundImage()" >
+</p>
+
+<h2 id="Avail">Available Filters</h2>
+<div id="aval">
+<ul>
+<li><input type="button" value="Original" onclick="myf0()"></li><br>
+<li><input type="button" value="Blur" onclick="myf()"></li><br>
+<li><input type="button" value="Sepia" onclick="myf2()"></li><br>
+<li><input type="button" value="Contro-Bright" onclick="myf4()"></li><br>
+<li><input type="button" value="Saturate" onclick="myf5()"></li><br>
+<li><input type="button" value="Opacity" onclick="myf6()"></li><br>
+<li><input type="button" value="Grayscale" onclick="myf7()"></li><br>
+<li><input type="button" value="Hue-rotate" onclick="myf8()"></li><br>
+<li><input type="button" value="color 1" onclick="myf9()"></li>
+</ul>
+</div>
+<br>
+<br>
+<details>
+	<summary>How To Use</summary>
+	<ol id="ol1">
+		<li>You will find two different options for choosing two different images.</li>
+		<li>Now choose image which you want to filter by selecting choose file option.</li>
+		<li>You will also find different filters in the "Available Filters" Heading.</li>
+		<li>By selecting on different filters your images will be Updated.</li>
+	</ol>
+</details>
+<br><br>
+<details>
+		<summary>Information for You</summary>
+		<div id="ifu">
+		<p>~ I hope Your are fine. But being fine is not sufficient you have to be protective. </p>
+		<p>~ Stay Home, Stay Secure.</p>
+		<p>~ Always wear mask while going out.</p>
+		</div>
+
+</details>
+<footer>
+	<p align="center">Copyright &copy 2020 All rights reserved.<br>This website is created By Aman Agarwal&#128519</p>
+
+</footer>
+</body>
+</html>
